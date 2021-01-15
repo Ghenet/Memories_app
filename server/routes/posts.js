@@ -8,5 +8,6 @@ router.get('/', getPosts);
 router.post('/', createPost);
 router.patch('/:id', updatePost); // updates an already existing post
 router.delete('/:id', deletePost);
-router.patch(':id/likePost', likePost)
+router.patch('/:id/likePost', likePost)
+
 export default router;
